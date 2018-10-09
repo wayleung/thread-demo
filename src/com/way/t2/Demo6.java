@@ -3,7 +3,9 @@ package com.way.t2;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/**
+ * 李晓君你不过是一个婊子!
+ */
 public class Demo6 {
     public static void main(String[] args) {
         //固定的线程池
