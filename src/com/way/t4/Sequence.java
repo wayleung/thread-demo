@@ -18,6 +18,7 @@ public class Sequence {
     }
 
 
+    //javap -verbose Sequence.class可以看到monitorenter  moniterexit
     public int xx(){
         synchronized (Sequence.class){
 
