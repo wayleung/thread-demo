@@ -17,6 +17,18 @@ public class Sequence {
         return value++;
     }
 
+
+    public int xx(){
+        synchronized (Sequence.class){
+
+            if(value>0){
+                return value;
+            }else{
+                return -1;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Sequence sequence = new Sequence();
 
