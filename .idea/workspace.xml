@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b49f7f0c-dcd8-4444-abfa-89b61330a568" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b49f7f0c-dcd8-4444-abfa-89b61330a568" name="Default Changelist" comment="volatile 用途场景">
+      <change afterPath="$PROJECT_DIR$/src/com/way/t10/MyLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/way/t10/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/way/t9/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/way/t4/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/way/t4/Sequence.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,36 +21,47 @@
     <session id="1453570512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="FutureTask" value="2" />
-          <entry key="java" value="22" />
+          <entry key="class" value="4" />
+          <entry key="java" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="53" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="class" value="1" />
           <entry key="dummy" value="1" />
-          <entry key="java" value="1393" />
-          <entry key="txt" value="79" />
+          <entry key="java" value="3570" />
+          <entry key="txt" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1393" />
-          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="3570" />
+          <entry key="PLAIN_TEXT" value="327" />
         </counts>
       </usages-collector>
     </session>
@@ -57,108 +69,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo2.java">
+        <entry file="file://$PROJECT_DIR$/src/com/way/t9/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="589">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/way/t10/MyLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="e#409#558#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="551">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo4.java">
+        <entry file="file://$PROJECT_DIR$/src/com/way/t10/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t2/Demo7.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t3/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t4/Sequence.java">
+        <entry file="file://$PROJECT_DIR$/src/com/way/t8/Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/way/t3/Target.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4085">
-              <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
-              <folding>
-                <element signature="e#14796#14797#0" expanded="true" />
-                <element signature="e#14860#14861#0" expanded="true" />
-                <element signature="e#15480#15481#0" expanded="true" />
-                <element signature="e#15546#15547#0" expanded="true" />
-                <element signature="e#17015#17016#0" expanded="true" />
-                <element signature="e#17082#17083#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -177,6 +118,7 @@
       <find>run</find>
       <find>run()</find>
       <find>Thread()</find>
+      <find>unsafe</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,6 +141,20 @@
         <option value="$PROJECT_DIR$/src/com/way/t4/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/way/t3/Demo.java" />
         <option value="$PROJECT_DIR$/src/com/way/t4/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t5/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t5/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t5/SingletonLazy.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t6/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t6/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t6/Demo3.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t7/Demo.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t7/Demo2.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t7/Demo3.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t8/User.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t8/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t9/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t10/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/com/way/t10/MyLock.java" />
       </list>
     </option>
   </component>
@@ -215,9 +171,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="width" value="1328" />
-    <option name="height" value="1038" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1934" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -281,8 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,32 +261,49 @@
               <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="t3" type="462c0819:PsiDirectoryNode" />
+              <item name="t8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thread-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="way" type="462c0819:PsiDirectoryNode" />
-              <item name="t4" type="462c0819:PsiDirectoryNode" />
+              <item name="t9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="way" type="462c0819:PsiDirectoryNode" />
+              <item name="t10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539232087136" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539705448269" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Projects/XGFE/Backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.way.t10" />
+      <recent name="com.way.t9" />
+      <recent name="com.way.t8" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -345,39 +317,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sequence">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.way.t3.Demo" />
-      <module name="thread-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.way.t3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.way.t2.Demo1" />
-      <module name="thread-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.way.t2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sequence (1)">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.way.t2.Demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.way.t7.Demo2" />
       <module name="thread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.way.t2.*" />
+          <option name="PATTERN" value="com.way.t7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,11 +332,24 @@
       </method>
     </configuration>
     <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.way.t2.Demo3" />
+      <option name="MAIN_CLASS_NAME" value="com.way.t7.Demo3" />
       <module name="thread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.way.t2.*" />
+          <option name="PATTERN" value="com.way.t7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequence (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.way.t9.Sequence" />
+      <module name="thread-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.way.t9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,11 +358,11 @@
       </method>
     </configuration>
     <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.way.t4.Sequence" />
+      <option name="MAIN_CLASS_NAME" value="com.way.t8.Sequence" />
       <module name="thread-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.way.t4.*" />
+          <option name="PATTERN" value="com.way.t8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,19 +371,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.Demo3" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Sequence" />
+      <item itemvalue="Application.Sequence (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequence (1)" />
         <item itemvalue="Application.Sequence" />
-        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Demo3" />
         <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.Demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +400,14 @@
       <updated>1539052477981</updated>
       <workItem from="1539052497667" duration="8256000" />
       <workItem from="1539136860741" duration="7005000" />
-      <workItem from="1539223969581" duration="1753000" />
+      <workItem from="1539223969581" duration="12002000" />
+      <workItem from="1539312427286" duration="8271000" />
+      <workItem from="1539504687791" duration="583000" />
+      <workItem from="1539568687943" duration="1481000" />
+      <workItem from="1539654900286" duration="9571000" />
+      <workItem from="1539679066896" duration="620000" />
+      <workItem from="1539681475767" duration="602000" />
+      <workItem from="1539705206237" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="thread hungry">
       <created>1539155049905</created>
@@ -466,35 +430,76 @@
       <option name="project" value="LOCAL" />
       <updated>1539224348024</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="synchronized jvm  command  monitorenter monitorexit">
+      <created>1539232175542</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539232175542</updated>
+    </task>
+    <task id="LOCAL-00005" summary="synchronized and singleton ,hungry singleton don't have thread safety problem but lazy have,so have to volatile and synchronized">
+      <created>1539242325106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539242325106</updated>
+    </task>
+    <task id="LOCAL-00006" summary="锁重入 自旋锁 死锁">
+      <created>1539312615255</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539312615255</updated>
+    </task>
+    <task id="LOCAL-00007" summary="synchronized的可见性   与   volatile 可见性">
+      <created>1539315745329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539315745329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="volatile 用途场景">
+      <created>1539336633130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539336633130</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Atom 原子类">
+      <created>1539575453483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539575453483</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17014000" />
+    <option name="totallyTimeSpent" value="48619000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1914" y="0" width="1062" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1289" height="696" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49790794" visible="true" weight="0.1986028" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.83964366" visible="true" weight="0.20260374" />
       <window_info id="JRebel" order="6" side_tool="true" />
-      <window_info id="Structure" order="7" sideWeight="0.50209206" side_tool="true" weight="0.30121458" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32907802" />
+      <window_info id="Structure" order="7" sideWeight="0.16035634" side_tool="true" visible="true" weight="0.20260374" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49911505" weight="0.26111907" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.32855093" />
       <window_info anchor="bottom" id="Problems" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="JRebel Executor" order="5" />
-      <window_info anchor="bottom" id="JRebel Console" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="6" sideWeight="0.502834" side_tool="true" visible="true" weight="0.20248668" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.25251076" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.22812052" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49716598" weight="0.25622776" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -520,7 +525,13 @@
     <MESSAGE value="thread hungry" />
     <MESSAGE value="talk about thread security from class file" />
     <MESSAGE value="talk about thread security and synchronized" />
-    <option name="LAST_COMMIT_MESSAGE" value="talk about thread security and synchronized" />
+    <MESSAGE value="synchronized jvm  command  monitorenter monitorexit" />
+    <MESSAGE value="synchronized and singleton ,hungry singleton don't have thread safety problem but lazy have,so have to volatile and synchronized" />
+    <MESSAGE value="锁重入 自旋锁 死锁" />
+    <MESSAGE value="synchronized的可见性   与   volatile 可见性" />
+    <MESSAGE value="volatile 用途场景" />
+    <MESSAGE value="Atom 原子类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atom 原子类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -623,9 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#409#558#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,10 +665,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/way/t3/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/way/t4/t5.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/way/t5/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="190">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t5/SingletonLazy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -681,21 +698,164 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4085">
           <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
-          <folding>
-            <element signature="e#14796#14797#0" expanded="true" />
-            <element signature="e#14860#14861#0" expanded="true" />
-            <element signature="e#15480#15481#0" expanded="true" />
-            <element signature="e#15546#15547#0" expanded="true" />
-            <element signature="e#17015#17016#0" expanded="true" />
-            <element signature="e#17082#17083#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t6/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t6/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t6/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="878">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t7/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t7/Demo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t7/Demo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/way/t4/Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3572">
+          <caret line="231" column="23" selection-start-line="231" selection-start-column="23" selection-end-line="231" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4465">
+          <caret line="276" column="49" selection-start-line="276" selection-start-column="49" selection-end-line="276" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t8/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/jre/lib/rt.jar!/sun/misc/Lock.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t3/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6802">
+          <caret line="395" column="28" selection-start-line="395" selection-start-column="25" selection-end-line="395" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#90972#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+          <folding>
+            <element signature="e#9117#9118#0" expanded="true" />
+            <element signature="e#9144#9145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../jdk/jdk1.8.0_92/jre/lib/rt.jar!/java/util/concurrent/locks/ReentrantLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="183" column="30" selection-start-line="183" selection-start-column="30" selection-end-line="183" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t9/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t10/MyLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t10/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/way/t8/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
