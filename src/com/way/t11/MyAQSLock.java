@@ -27,6 +27,8 @@ public class MyAQSLock implements Lock {
 
             //如果第二个线程进来 拿不到锁 返回false
 
+            //(可重入)如果第二个进来的线程和当前保存的线程是同一个则运行可以拿到锁 但是有代价 要更新状态值
+
             //如何判断是第一个线程进来还是其他线程进来
 
             /*
@@ -35,6 +37,7 @@ public class MyAQSLock implements Lock {
              */
             int state = getState();
 
+            Thread t = Thread.currentThread();
             //如果第一个线程进来 可以拿到锁 因此我们可以返回true
             if (state == 0) {
                 //不能用setState(arg);  因为会出现线程安全性问题
@@ -43,6 +46,11 @@ public class MyAQSLock implements Lock {
                     setExclusiveOwnerThread(Thread.currentThread());
                     return true;
                 }
+            } else if(getExclusiveOwnerThread()  == t){
+                //重入 而且没有线程安全性问题
+                setState(state+1);
+                return true;
+
             }
             return false;
 
