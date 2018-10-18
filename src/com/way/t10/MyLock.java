@@ -19,14 +19,19 @@ public class MyLock implements Lock {
     //标志位 是否拿到锁
     private boolean isLocked = false;
 
+    Thread lockBy = null;
 
+    int lockCount = 0;
 
     @Override
     public synchronized void lock() {
         //第一个进来的不等待 其他等待
 
         //锁已经被拿了 其他线程等待
-        while (isLocked) {
+
+        Thread currentThread = Thread.currentThread();
+
+        while (isLocked&&currentThread!=lockBy) {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -35,14 +40,25 @@ public class MyLock implements Lock {
         }
         //锁起来
         isLocked = true;
+
+        lockBy = Thread.currentThread();
+
+        lockCount++;
     }
 
     @Override
     public synchronized void unlock() {
-        //第一个线程执行完毕 释放锁
-        isLocked  = false;
-        //唤醒线程
-        notify();
+        if(lockBy==Thread.currentThread()){
+            lockCount--;
+            if(lockCount==0){
+                //第一个线程执行完毕 释放锁
+                isLocked  = false;
+                //唤醒线程
+                notify();
+            }
+
+        }
+
     }
 
     @Override
