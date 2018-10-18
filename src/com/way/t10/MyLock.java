@@ -41,6 +41,7 @@ public class MyLock implements Lock {
     public synchronized void unlock() {
         //第一个线程执行完毕 释放锁
         isLocked  = false;
+        //唤醒线程
         notify();
     }
 
