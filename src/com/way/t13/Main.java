@@ -20,26 +20,68 @@ public class Main {
 //        d.put("h",80);
 //        d.put("i",90);
 
+        //可以观察到写之间是互斥 要等待
+
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                d.put("a",10);
+//            }
+//        }).start();
+//
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                d.put("b",20);
+//            }
+//        }).start();
+//
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                d.put("c",30);
+//            }
+//        }).start();
+
+
+        //可以观察读写之间是互斥 要等待
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                d.put("a",10);
+//            }
+//        }).start();
+//
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println(d.get("a"));
+//            }
+//        }).start();
+
+
+        //读读之间不互斥 同时进行
+        d.put("a",10);
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                d.put("a",10);
+                System.out.println(d.get("a"));
             }
         }).start();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-                d.put("b",20);
+                System.out.println(d.get("a"));
             }
         }).start();
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                d.put("c",30);
-            }
-        }).start();
+
+
+
+
+
+
     }
 }
