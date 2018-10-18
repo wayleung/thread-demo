@@ -26,7 +26,7 @@ public class MyLock implements Lock {
         //第一个进来的不等待 其他等待
 
         //锁已经被拿了 其他线程等待
-        if (isLocked) {
+        while (isLocked) {
             try {
                 wait();
             } catch (InterruptedException e) {
