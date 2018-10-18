@@ -25,7 +25,7 @@ public class MyLock implements Lock {
     public synchronized void lock() {
         //第一个进来的不等待 其他等待
 
-        //锁已经被拿了
+        //锁已经被拿了 其他线程等待
         if (isLocked) {
             try {
                 wait();
