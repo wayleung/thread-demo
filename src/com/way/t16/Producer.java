@@ -14,6 +14,11 @@ public class Producer implements Runnable {
     public void run() {
         while (true){
             this.factory.produce();
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
         }
     }
 }
