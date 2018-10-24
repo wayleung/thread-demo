@@ -41,7 +41,7 @@ public class Demo2 {
 //                if(demo.getSignal()==1){
 //                    System.out.println("模拟代码运行");
 //                }
-                while (demo.getSignal()!=1){
+                if (demo.getSignal()!=1){
                     try {
                         wait();
                     } catch (InterruptedException e) {
