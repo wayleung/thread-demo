@@ -21,7 +21,7 @@ public class Demo {
         }
         System.out.println("a");
         signal++;
-        notifyAll();
+        notifyAll();//并不能指定叫醒哪个线程 所以不好 有了condition的存在 就不会了
     }
 
     public synchronized void b() {
