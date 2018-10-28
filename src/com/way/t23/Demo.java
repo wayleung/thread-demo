@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * @Auther: Way Liang
@@ -45,6 +46,9 @@ public class Demo {
     public static void main(String[] args) {
         List<String> contents = readFile();
         int lineCount  = contents.size();
+
+        CountDownLatch latch = new CountDownLatch(lineCount);
+
         Demo demo =  new Demo(lineCount);
 
         for(int i =0;i<lineCount;i++){
